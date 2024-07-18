@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* Body Styling */
+/* Body Styling
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f4f4;
@@ -16,9 +16,9 @@ body {
 header {
     background: #333;
     padding: 10px 0;
-}
+} */
 
-/* Navigation Styling */
+/* Navigation Styling
 nav {
     max-width: 1200px;
     margin: 0 auto;
@@ -47,7 +47,7 @@ nav {
 
 .menu a:hover {
     background: #575757;
-}
+} */
 
 /* Container Styling */
 .container {
