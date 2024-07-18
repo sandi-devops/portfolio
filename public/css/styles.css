@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background: #333;
+    padding: 10px 0;
+}
+
+/* Navigation Styling */
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.menu a:hover {
+    background: #575757;
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Titles */
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    width: 50px;
+    height: 4px;
+    background: #007BFF;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+}
+
+/* Intro Section */
+#intro h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+#intro p {
+    font-size: 1.25rem;
+    color: #555;
+}
+
+/* Cards */
+.card {
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: #007BFF;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    #intro h1 {
+        font-size: 2.5rem;
+    }
+}

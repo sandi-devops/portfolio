@@ -1,31 +1,44 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider and all of them will
-| be assigned to the "web" middleware group. Make something great!
-|
-*/
-
+// Home Route
 Route::get('/', function () {
-    return view('home');
-});
+    return view('pages.home');
+})->name('home');
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
-
+// About Route
 Route::get('/about', function () {
-    return view('about');
+    return view('pages.about');
+})->name('about');
+
+// Projects Route
+Route::get('/projects', function () {
+    return view('pages.projects');
+})->name('projects');
+
+// Photos Route
+Route::get('/photos', function () {
+    return view('pages.photos');
+})->name('photos');
+
+// Resume Route
+Route::get('/resume', function () {
+    return view('pages.resume');
+})->name('resume');
+
+// Contact Route (GET)
+Route::get('/contact', function () {
+    return view('pages.contact');
+})->name('contact');
+
+// Contact Route (POST)
+Route::post('/contact', function () {
+    // Handle form submission logic here
+    return redirect()->route('contact')->with('success', 'Message sent successfully!');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+
+Route::post('/contact', [ContactController::class, 'sendEmail'])->name('contact.send');
 
