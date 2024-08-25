@@ -89,7 +89,7 @@
                 <div class="card">
                     <img src="{{ asset('images/photo1.jpg') }}" class="card-img-top" alt="Photo 1">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #000;">Vacation in Hawaii</h5>
+                        <h5 class="card-title" style="color: #000;">Nagoya</h5>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@
                 <div class="card">
                     <img src="{{ asset('images/photo2.jpg') }}" class="card-img-top" alt="Photo 2">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #000;">Mountain Hiking</h5>
+                        <h5 class="card-title" style="color: #000;">Tokyo</h5>
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                 <div class="card">
                     <img src="{{ asset('images/photo3.jpg') }}" class="card-img-top" alt="Photo 3">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #000;">City Skyline</h5>
+                        <h5 class="card-title" style="color: #000;">Nagoya</h5>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="card">
-                    <img src="{{ asset('images/project1.jpg') }}" class="card-img-top" alt="Project 1">
+                    <img src="{{ asset('images/eco1.jpg') }}" class="card-img-top" alt="Project 1">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #000;">E-commerce Website</h5>
                         <p class="card-text" style="color: #000;">A fully functional e-commerce website built with Laravel and javascript,mysql</p>
@@ -150,7 +150,7 @@
             </div>
             <div class="col-md-6">
                 <div class="card">
-                    <img src="{{ asset('images/project2.jpg') }}" class="card-img-top" alt="Project 2">
+                    <img src="{{ asset('images/eco1.jpg') }}" class="card-img-top" alt="Project 2">
                     <div class="card-body">
                         <h5 class="card-title" style="color: #000;">Portfolio Website</h5>
                         <p class="card-text" style="color: #000;">A personal portfolio website to showcase my projects and skills, created with php and JavaScript.</p>

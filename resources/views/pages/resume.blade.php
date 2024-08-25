@@ -9,9 +9,9 @@
 <div class="col-md-8 offset-md-2">
             <h2 class="section-title text-center mb-4">Resume</h2>
             <div class="text-center mb-4">
-                <a href="="{{ asset('mypdf/jpcv2.pdf') }}" class="btn btn-primary mr-2" download>Download PDF</a>
-                <a href="resume.docx" class="btn btn-primary mr-2" download>Download DOCX</a>
-                <a href="resume.txt" class="btn btn-primary" download>Download TXT</a>
+                <a href="{{ asset('mypdf/JPCV.pdf') }}" class="btn btn-primary mr-2" download>Download japanese resume</a>
+                <a href="{{ asset('mypdf/ENGCV.pdf') }}" class="btn btn-primary mr-2" download>Download English resume</a><d DOCX</a>
+                
             </div>
 </div> 
     <h3>Introduction</h3>
@@ -32,38 +32,41 @@
 
     <h4>Hard Skills</h4>
     <ul>
-        <li><strong>Programming Languages:</strong> Proficient in JavaScript, Python, Java, C++, and SQL.</li>
-        <li><strong>Web Development:</strong> Expertise in HTML, CSS, JavaScript, React, Angular, and Node.js for building responsive and dynamic web applications.</li>
-        <li><strong>Database Management:</strong> Skilled in MySQL, PostgreSQL, MongoDB, and Oracle for designing and managing databases.</li>
+        <li><strong>Programming Languages:</strong> Proficient in JavaScript, Php ,python and SQL </li>
+        <li><strong>Web Development:</strong> Expertise in HTML, CSS, Boostrap ,JavaScript, React, and Node.js for building responsive and dynamic web applications.</li>
+        <li><strong>Database Management:</strong> Skilled in MySQL, PostgreSQL for designing and managing databases.</li>
         <li><strong>Software Development:</strong> Experienced in software development methodologies such as Agile and Scrum, with a strong understanding of the software development life cycle (SDLC).</li>
         <li><strong>Version Control:</strong> Proficient in Git and GitHub for version control and collaborative development.</li>
-        <li><strong>Cloud Computing:</strong> Knowledgeable in cloud platforms like AWS, Azure, and Google Cloud, with experience in deploying and managing cloud-based applications.</li>
-        <li><strong>Data Analysis:</strong> Experienced in data analysis and visualization tools like Excel, Tableau, and Power BI, with a strong understanding of statistical analysis and data interpretation.</li>
+        <li><strong>Cloud Computing:</strong> Knowledgeable in cloud platforms like AWS, Azure, and Google Cloud, with experience in cloud-based applications.</li>
         <li><strong>DevOps:</strong> Skilled in DevOps tools and practices, including Docker, Jenkins, Kubernetes, and CI/CD pipelines for automating and streamlining development processes.</li>
     </ul>
 
-    <h3>Experience</h3>
-    <div>
-        <h4>Job Title at Company</h4>
-        <p>Location</p>
-        <p>Dates of Employment</p>
-        <ul>
-            <li>Key responsibility or achievement</li>
-            <li>Key responsibility or achievement</li>
-        </ul>
-    </div>
-
+    
     <h3>Education</h3>
     <div>
-        <h4>Degree at Institution</h4>
-        <p>Location</p>
-        <p>Dates Attended</p>
+        <h4>Dagon University</h4>
+        <p>Myanmar</p>
+        <p>2007~2009</p>
     </div>
 
     <h3>Projects</h3>
+
     <div>
-        <h4>Project Title</h4>
-        <p>Brief description of the project, technologies used, and your role.</p>
+        <h4>E-commerce Website</h4>
+        <p>
+            Developed a full-featured e-commerce website using Laravel, MySQL, Linux, and JavaScript. 
+            Collaborated with team members to design and implement various functionalities such as user authentication, 
+            product management, and payment integration.
+        </p>
+    </div>
+
+    <div>
+        <h4>Company Website</h4>
+        <p>
+            Created a company website to enhance the online presence and provide information about services and products. 
+            Utilized Laravel, MySQL, Linux, and JavaScript to build a responsive and user-friendly interface. 
+            Worked as part of a team to ensure seamless integration and deployment.
+        </p>
     </div>
 
     <h3>Certifications</h3>
@@ -72,16 +75,13 @@
         <li>Certification Name</li>
     </ul>
 
-    <h3>Portfolio</h3>
-    <p>Provide links to your portfolio or examples of your work if applicable.</p>
+    
 
     <h3>Contact Information</h3>
-    <p>Email: your.email@example.com</p>
-    <p>Phone: 123-456-7890</p>
+    <p>Email: sandi.ygx@gmail.com</p>
+    <p>Phone: 080 -2899 -33971</p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">yourprofile</a></p>
-
-    <h3>Testimonials/References</h3>
-    <p>Add any testimonials from colleagues, supervisors, or clients, or indicate that references are available upon request.</p>
+       
 </div>
 @endsection
 

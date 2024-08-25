@@ -2,26 +2,25 @@
 
 @section('title', 'About')
 
-
-
 @section('content')
 <div id="about" class="container">
     <div class="row">
         <div class="col-md-8 offset-md-2">
             <div class="about-section text-center mb-5">
                 <h2 class="section-title">About Me</h2>
-                <img src="profile-pic.jpg" alt="Profile Picture" class="profile-picture img-fluid rounded-circle mt-4 mb-4">
-                <p class="lead">I am an IT engineer with a passion for web development, cloud computing, and data analysis. With a strong background in JavaScript, React, and Node.js, I enjoy solving complex problems and building innovative solutions that make a difference.</p>
+                
+                <img src="{{ asset('mypdf/p.jpg') }}" alt="Profile Picture" class="profile-picture img-fluid rounded-circle mt-4 mb-4">
+                <p class="lead">I am an IT engineer with a passion for web development, cloud computing.With a strong background in php, javascript,linux, and Node.js, I enjoy solving complex problems and building innovative solutions that make a difference.</p>
             </div>
 
             <div class="details-section mb-5">
                 <h3>Details</h3>
                 <ul class="list-unstyled">
-                    <li><strong>Name:</strong> John Doe</li>
-                    <li><strong>Location:</strong> City, Country</li>
-                    <li><strong>Email:</strong> john.doe@example.com</li>
-                    <li><strong>Phone:</strong> 123-456-7890</li>
-                    <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/johndoe">johndoe</a></li>
+                    <li><strong>Name:</strong> Sandi Khaing</li>
+                    <li><strong>Location:</strong> Tokyo, Japan</li>
+                    <li><strong>Email:</strong>sandi.ygx@gmail.com</li>
+                    <li><strong>Phone:</strong> 080 -2899 3971</li>
+                    <li><strong>LinkedIn:</strong> <a href="">Sandi khaing</a></li>
                 </ul>
             </div>
 
