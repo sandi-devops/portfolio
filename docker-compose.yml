@@ -21,6 +21,7 @@ services:
       - ./node_modules:/var/www/node_modules
     networks:
       - app-network
+      - haproxy-network
 
   webserver:
     image: nginx:alpine
@@ -34,6 +35,7 @@ services:
       - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
     networks:
       - app-network
+      - haproxy-network
 
   db:
     image: mysql:5.7
@@ -50,7 +52,7 @@ services:
       - dbdata:/var/lib/mysql
     networks:
       - app-network
-
+      - haproxy-network
   mmailpit:
     image: axllent/mailpit
     container_name: mailpit
@@ -69,7 +71,8 @@ services:
 networks:
   app-network:
     driver: bridge
-
+  haproxy-network:
+    driver: bridge
 volumes:
   dbdata:
     driver: local
